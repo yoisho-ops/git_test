@@ -28,3 +28,8 @@ def test_volume_calculations():
     assert round(calculate_cone_volume(3, 5), 2) == 28.27
     assert round(calculate_sphere_volume(3), 2) == 113.1
     assert calculate_pyramid_volume(10, 5) == 16.67
+# テスト実行
+if __name__ == "__main__":
+    test_volume_calculations()
+    print("All volume calculations passed successfully.")
+    
